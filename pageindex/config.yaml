@@ -1,0 +1,33 @@
+# PageIndex Configuration for Doubao (Volcano Engine)
+# 使用豆包大模型配置
+
+# 索引文档时使用的模型 (使用 openai/ 前缀告诉 LiteLLM 这是 OpenAI 兼容格式)
+model: "openai/doubao-seed-2.0-pro"
+
+# 检索时使用的模型
+retrieve_model: "openai/doubao-seed-2.0-pro"
+
+# 可选: 豆包其他模型
+# model: "openai/doubao-seed-2.0-pro-32k"
+# model: "openai/doubao-seed-2.0-lite"
+
+# 目录检测页数
+toc_check_page_num: 20
+
+# 每个节点最大页数
+max_page_num_each_node: 10
+
+# 每个节点最大token数
+max_token_num_each_node: 20000
+
+# 是否添加节点ID
+if_add_node_id: "yes"
+
+# 是否添加节点摘要
+if_add_node_summary: "yes"
+
+# 是否添加文档描述
+if_add_doc_description: "yes"
+
+# 是否添加节点文本
+if_add_node_text: "yes"
