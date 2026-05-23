@@ -13,6 +13,8 @@
 
 ### 1. 创建虚拟环境并安装依赖
 
+> **注意：** 此 MCP 依赖 [MinerU OpenAPI](https://github.com/opendatalab/MinerU-Ecosystem) 进行 PDF OCR 和解析。请先按照其文档部署 MinerU OpenAPI 服务。
+
 ```bash
 # 创建虚拟环境
 python -m venv venv
